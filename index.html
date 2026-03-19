@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUH MICHAEL - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@3.0.0/tsparticles.bundle.min.js"></script>
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader" id="pageLoader">
+        <div class="loader-content">
+            <div class="spinner"></div>
+            <p>SUH Michael's Portfolio</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home"><i class="fas fa-person"></i> SUH MICHAEL</a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active" data-section="home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about" class="nav-link" data-section="about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#services" class="nav-link" data-section="services"><i class="fas fa-toolbox"></i> Services</a></li>
+                <li><a href="#skills" class="nav-link" data-section="skills"><i class="fas fa-star"></i> Skills</a></li>
+                <li><a href="#projects" class="nav-link" data-section="projects"><i class="fas fa-briefcase"></i> Projects</a></li>
+                <li><a href="#testimonials" class="nav-link" data-section="testimonials"><i class="fas fa-comments"></i> Testimonials</a></li>
+                <li><a href="#contact" class="nav-link" data-section="contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div id="tsparticles" class="particles"></div>
+        <div class="hero-content">
+            <div class="hero-text fade-in">
+                <h1 class="hero-title">Hi, I'm <span class="gradient-text">SUH MICHAEL</span></h1>
+                <p class="hero-subtitle">Developer | Designer | Builder</p>
+                <p class="hero-description">
+                    Transforming data into insights and ideas into elegant solutions. Let's build something amazing together.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="social-links fade-in-up">
+                    <a href="tel:+237653868268" class="social-icon" title="Call"><i class="fas fa-phone"></i></a>
+                    <a href="https://wa.me/237653868268" class="social-icon" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="mailto:suhmichaelv@gmail.com" class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://t.me/cassie" class="social-icon" title="Telegram"><i class="fab fa-telegram-plane"></i></a>
+                </div>
+            </div>
+            <div class="hero-image fade-in">
+                <div class="image-wrapper">
+                    <img src="img/hero1.jpg" alt="Suh Michael">
+                    <div class="image-overlay"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">Discover my journey, expertise, and passion for creating innovative solutions.</p>
+            <div class="about-content">
+                <div class="about-image fade-in-up">
+                    <img src="img/about.jpg" alt="About Suh Michael">
+                    <div class="image-badge">
+                        <span>7+ Years</span>
+                        <p>Experience</p>
+                    </div>
+                </div>
+                <div class="about-text fade-in-up">
+                    <p>
+                        I'm a passionate Software Developer and Engineer with expertise in graphic design and UX/UI development. 
+                        I create beautiful, functional solutions that combine elegant code with stunning design. My approach brings 
+                        a unique vibe to every project—crafting applications that users love while maintaining clean, maintainable code.
+                    </p>
+                    <p>
+                        My journey started with a love for building things and a keen eye for design, which evolved into a career 
+                        dedicated to creating impactful digital products. As a vibe coder and software maintainer, I ensure every 
+                        project is not only functional but also enjoyable to use and maintain.
+                    </p>
+                    <p>
+                        I hold an HND and Bachelor's degree in Software Engineering, providing me with a strong foundation in software development principles, architecture, and best practices.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3 class="stat-counter" data-target="50">0</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3 class="stat-counter" data-target="30">0</h3>
+                            <p>Happy Clients</p>
+                        </div>
+                        <div class="stat">
+                            <h3 class="stat-counter" data-target="100">0</h3>
+                            <p>Satisfaction Rate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <p class="section-subtitle">Comprehensive solutions tailored to meet your unique business needs.</p>
+            <div class="services-grid">
+                <div class="service-card fade-in-up">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Website Development</h3>
+                    <p>Creating responsive, modern websites and web applications with the latest technologies and best practices.</p>
+                </div>
+                <div class="service-card fade-in-up">
+                    <div class="service-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h3>PC App Development</h3>
+                    <p>Building powerful desktop applications for Windows, Mac, and Linux platforms with seamless performance.</p>
+                </div>
+                <div class="service-card fade-in-up">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Graphic Design</h3>
+                    <p>Creating visually stunning graphics, logos, and design assets that bring your brand to life.</p>
+                </div>
+                <div class="service-card fade-in-up">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile App Development</h3>
+                    <p>Developing intuitive mobile applications for iOS and Android platforms.</p>
+                </div>
+                <div class="service-card fade-in-up">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Designing beautiful and user-centered interfaces that enhance user experience.</p>
+                </div>
+                <div class="service-card fade-in-up">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Software Testing & Maintainance</h3>
+                    <p>Ensuring code quality through comprehensive testing and providing ongoing maintenance and consulting services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <p class="section-subtitle">Expertise across multiple technologies and domains with proven proficiency.</p>
+            <div class="skills-content">
+                <div class="skills-column fade-in-up">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span><i class="fab fa-python"></i> Python</span>
+                                <span class="skill-percentage">0%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percentage="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span><i class="fab fa-js"></i> JavaScript</span>
+                                <span class="skill-percentage">0%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percentage="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span><i class="fas fa-database"></i> SQL</span>
+                                <span class="skill-percentage">0%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percentage="92"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span><i class="fab fa-html5"></i> HTML/CSS</span>
+                                <span class="skill-percentage">0%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percentage="98"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-column fade-in-up">
+                    <h3><i class="fas fa-tools"></i> Tools & Technologies</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span><i class="fab fa-react"></i> React/Vue.js</span>
+                                <span class="skill-percentage">0%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percentage="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span><i class="fas fa-chart-bar"></i> Data Analysis</span>
+                                <span class="skill-percentage">0%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percentage="93"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span><i class="fas fa-brain"></i> Machine Learning</span>
+                                <span class="skill-percentage">0%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percentage="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span><i class="fab fa-github"></i> Git/GitHub</span>
+                                <span class="skill-percentage">0%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percentage="94"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-column fade-in-up">
+                    <h3><i class="fas fa-star"></i> Soft Skills</h3>
+                    <div class="skills-badges">
+                        <span class="skill-badge"><i class="fas fa-comments"></i> Communication</span>
+                        <span class="skill-badge"><i class="fas fa-puzzle-piece"></i> Problem Solving</span>
+                        <span class="skill-badge"><i class="fas fa-users"></i> Team Leadership</span>
+                        <span class="skill-badge"><i class="fas fa-tasks"></i> Project Management</span>
+                        <span class="skill-badge"><i class="fas fa-lightbulb"></i> Creativity</span>
+                        <span class="skill-badge"><i class="fas fa-eye"></i> Attention to Detail</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Showcase of recent work demonstrating technical excellence and innovation.</p>
+            <div class="projects-grid">
+                <div class="project-card fade-in-up">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop" alt="Project 1">
+
+                    </div>
+                    <div class="project-info">
+                        <h3>Timeless Images Photography</h3>
+                        <p>Professional photography portfolio website with dynamic gallery and booking system</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">Bootstrap CSS</span>
+                            <span class="tag">Ajax</span>
+                        </div>
+                        <a href="https://timelessimages.org" target="_blank" class="project-link">Visit Website →</a>
+                    </div>
+                </div>
+                <div class="project-card fade-in-up">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" alt="Project 2">
+
+                    </div>
+                    <div class="project-info">
+                        <h3>University Management System</h3>
+                        <p>Comprehensive management system for university operations and student administration</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">Tailwind CSS</span>
+                            <span class="tag">PHP</span>
+                            <span class="tag">Node.JS</span>
+                        </div>
+                        <a href="https://fonab-ms.kesug.com" target="_blank" class="project-link">View System →</a>
+                    </div>
+                </div>
+                <div class="project-card fade-in-up">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&h=400&fit=crop" alt="Project 3">
+
+                    </div>
+                    <div class="project-info">
+                        <h3>School Online Report Card System</h3>
+                        <p>Digital report card platform enabling schools to manage and distribute student grades online</p>
+                        <div class="project-tags">
+                            <span class="tag">Laravel</span>
+                            <span class="tag">Tailwind CSS</span>
+                            <span class="tag">Livewire</span>
+                        </div>
+                        <a href="https://fonab-rs.kesug.com" target="_blank" class="project-link">Access System →</a>
+                    </div>
+                </div>
+                <div class="project-card fade-in-up">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=600&h=400&fit=crop" alt="Project 4">
+                    </div>
+                    <div class="project-info">
+                        <h3>University Website</h3>
+                        <p>Modern university website with student portal, course management, and event updates</p>
+                        <div class="project-tags">
+                            <span class="tag">Next.JS</span>
+                            <span class="tag">Tailwind CSS</span>
+                            <span class="tag">ShadCN UI</span>
+                        </div>
+                        <a href="https://fonab.cm/university" target="_blank" class="project-link">View Website →</a>
+                    </div>
+                </div>
+                <div class="project-card fade-in-up">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=600&h=400&fit=crop" alt="Project 5">
+                    </div>
+                    <div class="project-info">
+                        <h3>Blog Website</h3>
+                        <p>Content management platform with dynamic blog posts, categories, and user engagement features</p>
+                        <div class="project-tags">
+                            <span class="tag">Next.JS</span>
+                            <span class="tag">Tailwind CSS</span>
+                            <span class="tag">ShadUI</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                        <a href="https://237palava.vercel.app" target="_blank" class="project-link">Read Blog →</a>
+                    </div>
+                </div>
+                <div class="project-card fade-in-up">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop" alt="Project 6">
+                    </div>
+                    <div class="project-info">
+                        <h3>Brewery Website</h3>
+                        <p>Premium brewery brand showcase with product catalog, location finder, and online ordering</p>
+                        <div class="project-tags">
+                            <span class="tag">Next.JS</span>
+                            <span class="tag">Tailwind CSS</span>
+                            <span class="tag">ShadCN UI</span>
+                        </div>
+                        <a href="https://fonab.cm/brewery" target="_blank" class="project-link">Explore Brewery →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Clients Say</h2>
+            <p class="section-subtitle">Hear from the amazing clients I've worked with.</p>
+            <div class="testimonials-scroll-container">
+                <div class="testimonials-scroll-wrapper">
+                    <!-- TESTIMONIAL 1: Sarah Johnson -->
+                    <div class="testimonial-item fade-in-up">
+                        <div class="testimonial-card">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"SUH Michael is an exceptional developer who delivered our website beyond expectations. Professional, creative, and highly responsive to feedback!"</p>
+                            <div class="testimonial-author">
+                                <i class="fas fa-user-tie"></i>
+                                <div class="author-info">
+                                    <h4>Nkrumah Ebot</h4>
+                                    <p>CEO, Yaoundé Tech Solutions</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- TESTIMONIAL 2: Michael Chen -->
+                    <div class="testimonial-item fade-in-up">
+                        <div class="testimonial-card">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"The mobile app he designed for us is stunning and user-friendly. His attention to detail and design sense are truly remarkable."</p>
+                            <div class="testimonial-author">
+                                <i class="fas fa-user-circle"></i>
+                                <div class="author-info">
+                                    <h4>Armando Nkonga</h4>
+                                    <p>Product Manager, Douala Digital Hub</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- TESTIMONIAL 3: Emma Rodriguez -->
+                    <div class="testimonial-item fade-in-up">
+                        <div class="testimonial-card">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"Working with SUH Michael was a game-changer for our business. His software solutions improved our efficiency by 40%. Highly recommended!"</p>
+                            <div class="testimonial-author">
+                                <i class="fas fa-user-check"></i>
+                                <div class="author-info">
+                                    <h4>Aissatou Kamga</h4>
+                                    <p>Founder, Bamenda Business Group</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- TESTIMONIAL 4: James Williams -->
+                    <div class="testimonial-item fade-in-up">
+                        <div class="testimonial-card">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"Best designer I've worked with! His UI/UX skills transformed our platform. Our users love the new interface. Absolutely fantastic work!"</p>
+                            <div class="testimonial-author">
+                                <i class="fas fa-user-astronaut"></i>
+                                <div class="author-info">
+                                    <h4>Achille Njofang</h4>
+                                    <p>Director, Cameroon Design Studios</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- TESTIMONIAL 5: Lisa Anderson -->
+                    <div class="testimonial-item fade-in-up">
+                        <div class="testimonial-card">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"SUH Michael's expertise in PC application development is unmatched. He built a complex desktop application for us with clean code and excellent performance. Truly impressive!"</p>
+                            <div class="testimonial-author">
+                                <i class="fas fa-user-graduate"></i>
+                                <div class="author-info">
+                                    <h4>Emilie Talla</h4>
+                                    <p>CTO, Buea Innovation Labs</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="testimonials-hint">💬 Scroll horizontally to view more testimonials</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Have a project in mind? Let's work together to bring your ideas to life.</p>
+            
+            <div class="contact-content">
+                <div class="contact-info fade-in-up">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Mile 4 Nkwen, Bamenda.</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>suhmichaelv@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+237653868268</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Availability</h4>
+                            <p>Available for freelance projects</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form fade-in-up" id="contactForm" action="https://formspree.io/f/mlgpzpol" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="contactBtn">Send Message</button>
+                    <p id="form-status"></p>
+                </form>
+            </div>
+            
+            <!-- Follow on Social Media Section -->
+            <div class="social-media-section">
+                <h3>Follow on Social Media</h3>
+                <p>Connect with me on social platforms</p>
+                <div class="social-media-icons">
+                    <a href="#" class="social-media-link linkedin" title="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="social-media-link facebook" title="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-media-link whatsapp" title="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="#" class="social-media-link instagram" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-media-link tiktok" title="TikTok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="#" class="social-media-link telegram" title="Telegram">
+                        <i class="fab fa-telegram-plane"></i>
+                    </a>
+                    <a href="#" class="social-media-link youtube" title="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section fade-in-up">
+                    <h4>SUH MICHAEL</h4>
+                    <p>Developer | Designer | Builder</p>
+                    <div class="footer-socials">
+                        <a href="tel:+237653868268" title="Call"><i class="fas fa-phone"></i></a>
+                        <a href="https://wa.me/237653868268" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="mailto:suhmichaelv@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="https://t.me/cassie" title="Telegram"><i class="fab fa-telegram-plane"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section fade-in-up">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section fade-in-up">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Web Development</a></li>
+                        <li><a href="#services">Data Analysis</a></li>
+                        <li><a href="#services">Data Science</a></li>
+                        <li><a href="#services">Consulting</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section fade-in-up">
+                    <h4>Contact</h4>
+                    <p>Email: suhmichaelv@gmail.com</p>
+                    <p>Phone: +237653868268</p>
+                    <p>Based in San Francisco, CA</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 SUH MICHAEL. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
