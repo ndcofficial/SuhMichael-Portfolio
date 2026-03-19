@@ -1392,6 +1392,15 @@ section {
     box-shadow: 0 0 30px rgba(255, 0, 0, 0.5);
 }
 
+.social-media-link.x {
+    background: linear-gradient(135deg, #000000, #1a1a1a);
+}
+
+.social-media-link.x:hover {
+    border-color: #000000;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
 /* ===== FOOTER ===== */
 .footer {
     background: rgba(10, 10, 20, 0.95);
