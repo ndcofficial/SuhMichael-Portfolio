@@ -1393,14 +1393,14 @@ section {
 }
 
 .social-media-link.x {
-    background: linear-gradient(135deg, #FFFFFF, #F5F5F5);
-    color: #000000;
+    background: linear-gradient(135deg, #1DA1F2, #1a91da);
+    color: white;
 }
 
 .social-media-link.x:hover {
-    border-color: #000000;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
-    color: #000000;
+    border-color: #1DA1F2;
+    box-shadow: 0 0 30px rgba(29, 161, 242, 0.5);
+    color: white;
 }
 
 /* ===== FOOTER ===== */
