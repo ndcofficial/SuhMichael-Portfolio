@@ -256,8 +256,6 @@ async function handleSubmit(event) {
     });
 }
 contactForm.addEventListener("submit", handleSubmit);
-    }, 1500);
-});
 
 // ===== NOTIFICATION SYSTEM =====
 function showNotification(message, type = 'success') {
